@@ -56,7 +56,7 @@
                 position: relative;
                 transform: translateZ(-3px) scale(4);
                 z-index: -1;
-                background-image: url('C:/Users/Himabindu Kandukuri/Documents/USC/Courses/Fall 2019/571/Homeworks/HW3/Images/coffee2.jpg');
+                background-image: url('<YOUR_PATH>/coffee2.jpg');
                 height: 790px; 
                 background-size: 1310px;
                 background-repeat: no-repeat;
@@ -143,7 +143,7 @@
             /*Parallax effect - background image 2*/
             .banner2{
                 position: relative;
-                background-image: url('C:/Users/Himabindu Kandukuri/Documents/USC/Courses/Fall 2019/571/Homeworks/HW3/Images/coffee1.jpg');
+                background-image: url('<YOUR_PATH>/coffee1.jpg');
                 transform: translateZ(-1px) scale(3);
                /* height: 500px;*/
                 height: 500px;
