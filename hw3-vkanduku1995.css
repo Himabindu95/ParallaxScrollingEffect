@@ -1,0 +1,233 @@
+/*Global level styles*/
+            body{
+                margin: 0 auto;
+                padding: 0;
+                width: 850px;
+                overflow-y: hidden;
+                overflow-x: hidden;
+            }
+        /*Global level styles*/
+        
+        /*Styles for title and menu-bar*/    
+        .header{                
+                position: fixed;
+                z-index: 99;
+                background: white;
+                margin: 0 auto;
+                width: 850px;
+                float: none;
+                top: 3%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 15px 15px 0px 15px;
+            }
+            .main-heading{
+                color: #583580;
+                font-style: italic;
+                float: left;
+                margin: 35px 10px 15px 100px;
+                font-weight: normal;
+                font-size: 22px;
+            }
+            .nav-bar{
+                color: #999999;
+                font-family: 'Poppins', sans-serif;
+                list-style: none;
+                float: right;
+                padding-right: 120px;
+                margin-top: 40px;
+                font-size: 12px;
+            }
+            .nav-bar li{
+                display: inline;
+                padding-right: 20px;
+            }        
+            /*Styles for title and menu-bar*/
+            
+            /*Parallax effect - background image 1*/
+            .parallax{
+                perspective: 1px;
+                transform-style: preserve-3d;
+                height: 100vh;
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+            .banner1{
+                position: relative;
+                transform: translateZ(-3px) scale(4);
+                z-index: -1;
+                background-image: url('C:/Users/Himabindu Kandukuri/Documents/USC/Courses/Fall 2019/571/Homeworks/HW3/Images/coffee2.jpg');
+                height: 790px; 
+                background-size: 1310px;
+                background-repeat: no-repeat;
+                background-position: -270px 5px;
+                left: -23px;
+                width: calc(100% + 15px);
+            }
+            .content-overlay{
+                position: absolute;
+                top: 190px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                width: 335px;
+                padding: 28px 0px 28px 25px;
+                background-color: white;
+                transform: translateZ(0);
+            }
+            
+            .image-card img{
+                width: 110px;
+                max-height: 140px;
+                float: left;
+                object-fit: cover;
+                     }
+            .image-card .img-content{
+                float: left;
+               padding-left: 20px;
+                color: #583580;
+            }
+            .img-content h6{
+                margin: 0;
+                font-style: italic;
+                font-weight: 500;
+                font-size: 15px;
+            }
+            .img-content h2{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                font-weight: 100;
+            }
+            .img-content h1{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                font-weight: 700;
+                font-size: 29px;
+            }
+            .img-content hr{
+                width: 40%;
+                margin: 15px 0;
+                border: 2px solid #583580;
+            }
+            .img-content h4{
+                padding: 0;
+                margin: 0;
+                font-size: 21px;
+                font-family: sans-serif;
+                font-weight: 100;
+            }
+            /*Parallax effect - background image 1*/
+            
+            /* Three column layout*/
+            .three-col-layout{
+                position: relative;
+                display: flex;
+                flex: 3;
+                width: -moz-fit-content;
+                transform: translateZ(0);
+                z-index: 99;
+                top: -190px;
+                left: 0;
+                font-family: 'Raleway', sans-serif;
+            }
+            .col1, .col2, .col3{
+                width: 234px;
+                padding-top: 180px;
+                padding-left: 50px;
+                height: 360px;
+            }
+             /* Three column layout*/ 
+            
+            /*Parallax effect - background image 2*/
+            .banner2{
+                position: relative;
+                background-image: url('C:/Users/Himabindu Kandukuri/Documents/USC/Courses/Fall 2019/571/Homeworks/HW3/Images/coffee1.jpg');
+                transform: translateZ(-1px) scale(3);
+               /* height: 500px;*/
+                height: 500px;
+                z-index: -1;
+                background-position: -23px -90px;
+                background-size: 920px;
+                background-repeat: no-repeat; 
+            }
+            .content{
+                background-color: #48267C;
+                padding: 80px 100px;
+                position: relative;
+                left: 0px;
+                height: 200px;
+                transform: translateZ(0);
+                z-index: 100;
+                top: -40%;
+            }
+            .content p{
+                padding-bottom: 50px;
+            }
+            .content h2, .content p{
+                color: white;
+                width: 100%;
+                margin: 0 auto;
+                font-family: 'Raleway', sans-serif;
+	            
+				font-weight: 400;
+            }
+            .contact{
+                color: #48267C;
+                font-family: 'Raleway', sans-serif;
+                padding-left: 10%;
+                position: relative;
+				font-weight: 300;
+				background-color: white;
+				z-index: 99;
+                top: -43%;
+                padding-top: 50px;
+            }
+            .contact-content{
+                float: left;
+                width: 45%;
+            }
+            .contact-content h1{
+                font-size: 35px;
+				font-weight: 500;
+            }
+            .contact-form{
+                float: left;
+                width: 50%;
+                padding-bottom: 30px;
+            }
+            .info{
+                font-weight: 600;
+                font-size: 12px;
+                padding: 0;
+                line-height: 11px;
+				font-weight: 400;
+            }
+            h1{
+                margin: 0;
+            }
+            input[type="text"], textarea{
+                margin-bottom: 7px;
+                width: 100%;
+                padding: 5px;
+                border: 1px solid #48267C;
+            }
+            input[type="button"]{
+                background-color: #48267C;
+                color: white;
+                float: right;
+                font-style: italic;
+                border: 0;
+                font-family: Times New Roman;
+                padding: 2%;
+                font-size: 18px;
+                width: 28%;           
+            }
+            input[type="text"]::placeholder, textarea::placeholder{
+                font-family: 'Raleway', sans-serif;
+                padding: 5px;
+                color: #48267C;
+                font-weight: 400;
+            }
+            
